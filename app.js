@@ -24,7 +24,7 @@ app.use(flash());
 app.use(expressSession({
   resave:false,
   saveUninitialized:false,
-  secret:"golumolu"
+  secret:"keepitsecret"
 }));
 
 app.use(passport.initialize());
